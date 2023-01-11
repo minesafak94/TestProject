@@ -1,0 +1,10 @@
+Java follows some rules fo namin things like classes and boxes (Variables)
+1) While naming a class always with Capitals in upper case like DecimalNumber
+2) While giving names to variables first word always small next words always in upper case
+myBox
+
+Primitive data types:
+byte short int long float double char boolean
+
+
+

@@ -1,0 +1,24 @@
+package class3;
+
+public class VariablesDemo_1 {
+    public static void main(String[] args) {
+        int age=10; //requesting the computer to create a variable of type int and store a value 10 in it
+        int salary; //only create a variable of type int and don't assign any value to it
+       salary=120000; // updating the variable - reassigning a value
+
+        System.out.println(salary);
+        /*String name;
+        String city;
+        String country;
+         */
+
+        String name,city,country; // we can create multiple empty boxes in a single line of code
+        char gender,letter;
+        name="Daria";
+        //System.out.println(city); ERROR = I havent stored anything inside the city variable thats why java is confused
+        // what to print
+        System.out.println(name);
+
+
+    }
+}

@@ -1,0 +1,23 @@
+1) Prompt the user to enter person heights in inches. Person should be classified as one of the following:
+• short (under 60 inch)
+• medium(between 60 -72 inch)
+• tall (over 72 inch)
+
+2) Write a program that will print whether it is a weekend or weekday. If any day from 1-5 → output “It is a weekday”, anyday from 6-7 → output “It is a weekend”, any other day → output “Invalid day”
+3) Write a program that will read three inputs of scores (quiz, mid term, and final scores) and determine the grade based on the following rules:
+if the average score >=90 → grade=A
+if the average score >= 70 and <90 → grade=B
+if the average score>=50 and <70 → grade=C
+if the average score<50 → grade=F
+
+4)Write a program for user to enter his/hers birth month. Based on the month define the season.
+Example: if user is born in June, July or August → season =”Summer”.
+At the end of the program we should see output as “You were born __”.
+5) Write a program to find largest of three double values using if-else..if and logical operators provided by a user (numbers must be distinct)
+
+6)Write a program to find largest number among three numbers using nested if provided by a user (numbers must be distinct)
+7) Ask user to enter their country and capture it. Once values are captured print which language user speaks.
+
+Allow user to enter grade and then provide explanation: A-Excellent, B-Good, C-Average, D-Bad, any other grade --> Not Acceptable. At the end your program should print which grade was entered by a user with explanation.
+
+8)HomeWork: Using scanner class create calculator. Allow user to enter 2 numbers and operator(+,-,*,/). Based on operator provide the result to user.

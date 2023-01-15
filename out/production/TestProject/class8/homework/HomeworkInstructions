@@ -1,0 +1,23 @@
+1) Print numbers from 1 to 50 except those that are divisible by 3
+
+2) Create a program that will be asking user to apply for a credit card 10 times. As soon you get an “yes” from a user program should stop asking.
+3) Write a program that reads a range of integers (start and end point), provided by a user and then from that range prints the sum of the even and odd integers.
+
+4) Write a program to ask a user to enter item they want to buy and the price of that item. Every time user enters money accumulate the amount and tell the user how much is left to pay off. If user give more money program should return a change. Whenever a user done with payments program should say "Thank you for shopping!"
+5) Print the following pattern:
+55555
+4444
+333
+22
+1
+
+6) Print the following pattern:
+*
+
+*
+
+*
+**
+*
+**
+*

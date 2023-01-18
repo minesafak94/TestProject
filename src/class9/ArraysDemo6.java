@@ -1,0 +1,34 @@
+package class9;
+
+public class ArraysDemo6 {
+    public static void main(String[] args) {
+
+        //Create an empty array then store 45 44 33 20 and 10 in it then use a loop
+        //to add all the elements which are present in even indexes and print after sum up
+
+        int [] numbers=new int[5];//create empty array [inside this brackets, is the count of numbers here 5]
+
+        numbers[0]=45;//store the numbers in the variable number with location 0 to 5 ;[0] or [1] and so on
+        numbers[1]=44;
+        numbers[2]=33;
+        numbers[3]=20;
+        numbers[4]=10;
+
+
+        int sum=0;
+
+        for (int i=0;i< numbers.length;i++){
+            if(i%2==0){ //checks values instead of indexes
+                sum=sum+numbers[i];
+            }}
+            System.out.println(sum);// after for loop brackets for just seeing results, we dont want to see the numbers
+        }
+
+
+
+
+
+
+
+
+    }

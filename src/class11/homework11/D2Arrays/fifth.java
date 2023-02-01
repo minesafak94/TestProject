@@ -12,12 +12,13 @@ public class fifth {
                 {8, 9, 7,4},
         };
 
-        for (int i=0;i< numbers.length;i++){
-            for (int j=0;j< numbers.length;j++){
-                if (numbers[j][i]%2!=0){
-                    System.out.println(numbers[j][i]);
-                }
+        for (int i=0;i<numbers.length;i++){
+            for (int j=0;j< numbers[i].length;j++){
+                if (numbers[i][j]%2==0){
+                    System.out.println(numbers[i][j]);
+                }}
+                System.out.println();
             }
         }
     }
-}
+

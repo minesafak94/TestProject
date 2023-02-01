@@ -12,8 +12,9 @@ public class StringVsStringBuilder {
         //string inside a loop or many changes use StringBuilder
 
         StringBuilder str=new StringBuilder();
-        for (int i =0;i<1000;i++){
+        for (int i =0;i<10;i++){
             str.append(i);//StringBuilder ist schneller!!!
         }
+
     }
 }

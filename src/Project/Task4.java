@@ -10,7 +10,7 @@ public class Task4 {
 
         int r=0;
         for(int i=0;i< arr.length;i++){
-            for (int j=i;j< arr.length;j++){
+            for (int j=i;j< arr[i].length;j++){
             if (arr[i][j]%2==0){
                 System.out.println(arr[i][j]);
             }else

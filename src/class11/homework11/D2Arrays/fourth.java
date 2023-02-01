@@ -10,11 +10,13 @@ public class fourth {
                {8, 9, 7},
        };
 
+int sum=0;
+        for (int i=0;i< numbers.length;i++){
+            for (int j=0;j<numbers[i].length;j++){
+                System.out.print(numbers[i][j]+" ");
+                sum+=numbers[i][j];
 
-        for (int i=0;i<=2;i++){
-            for (int j=0;j<=2;j++){
-                System.out.println(numbers[j][i]);
-            }
-        }
+            }System.out.println();
+        }System.out.println("The sum of all numbers: "+sum);
     }
 }

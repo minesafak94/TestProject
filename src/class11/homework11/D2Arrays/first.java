@@ -1,3 +1,4 @@
+/*
 package class11.homework11.D2Arrays;
 
 public class first {
@@ -10,13 +11,14 @@ public class first {
             {"A","B","C","D","F"}
         };
 
-        for (int i=0;i<=nameGrade.length;i++){
-            for (int j=0;j<=nameGrade.length;j++){
-                if (nameGrade[i][j].equals("A") || nameGrade[i][j].equals("B")) {
+        for (int i=0;i<nameGrade.length;i++){
+            for (int j=0;j<nameGrade[i].length;j++){
+                if (nameGrade[i][j].equals()|| nameGrade[i][j].equals("B")) {
                     System.out.println(nameGrade[i][j]+" "+nameGrade[i][j]);
-}
+}}
                 System.out.println();
             }
         }
     }
-}
+
+*/

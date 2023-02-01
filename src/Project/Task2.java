@@ -20,7 +20,7 @@ public class Task2 {
             for (int j=0;j<= countries.length;j++) {
                 countries[i] = scan.next();
 
-                System.out.println(countries[i].charAt(0));
+                System.out.println("The capital of "+countries[i]+" is:"+countries[i].charAt(0));
                 System.out.println();
 
 

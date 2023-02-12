@@ -1,25 +1,26 @@
-/*
 package Replit;
-*/
 
-import java.util.Scanner;
-/*
-
-public class deneme12 {
+class deneme12 {
     public static void main(String[] args) {
+        int[][] a = {
+                {1,2,3,4},
+                {4,5,6,7},
+                {1,3,5,7}
+        };
+        reduce10(a);
 
-        Scanner scanner=new Scanner(System.in);
-        String input=scanner.next();
-        String firstThree=firstThree.equalsIgnoreCase(firstThree);
-        System.out.println("The first 3 letters of "+input+ " is "+firstThree);
-
+        //create method reduce10 here
     }
 
+    public static void reduce10(int [][]a) {
 
-*/
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                a[i][j] = a[i][j] - 10;
+                System.out.print(a[i][j]);
 
 
-
-
-
-
+            }
+            System.out.println();
+        }
+    }}

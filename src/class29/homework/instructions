@@ -1,0 +1,17 @@
+Create a Set of cities in which you want to make sure that insertion order is maintained.
+Then remove any city that starts with “A”;
+
+Create a Set collection that will hold Objects of Student Type. In this set we do not care about the insertion order.
+Each student object should have name and studentID. Display name of each student.
+
+
+
+HashSet -> no insertion order, its alphabetic
+LinkedSet-> retains insertion order
+TreeSet->no order, int has order
+
+LinkedHashSet-> insertion order is retained
+
+LinkedHashSet<Integer>uniqueNumbers=new LinkedHashSet<>(num);//um die Liste hier einzufuegen
+            System.out.println(uniqueNumbers);
+        }

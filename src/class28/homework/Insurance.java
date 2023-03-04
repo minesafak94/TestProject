@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public abstract class Insurance {
-
+//this is stored in class 29 task4 in Asghars folder
         /*6) Create a class Insurance that will have an attribute as insuranceName and unimplemented behaviour as getQuote
         and cancelInsurance. Create 3 subclasses Car, Pet, Health. Car class has it’s own attribute as carModel and
         Class Pet has petType attribute.
@@ -17,7 +17,11 @@ public abstract class Insurance {
           Create 3 objects of different card and store them into LinkedList.
           Using for loop/advanced for loop/ iterator access all methods of the class.*/
 
-        String insuranceName="StateFirm";
+    public Insurance(String insuranceName) {
+        this.insuranceName = insuranceName;
+    }
+
+    String insuranceName;
 
         abstract void getQuote();
         abstract void cancelInsurance();
@@ -25,6 +29,11 @@ public abstract class Insurance {
     }
 
     class Car extends Insurance{
+        public Car(String insuranceName, String carModel) {
+            super(insuranceName);
+            this.carModel = carModel;
+        }
+
         @Override
         void getQuote() {
             System.out.println("car quote is: ");
@@ -35,11 +44,16 @@ public abstract class Insurance {
             System.out.println("cancel car Insurance");
         }
 
-        String carModel="Mercedes";
+        String carModel;
     }
 
 
     class Pet extends Insurance{
+        public Pet(String insuranceName, String petType) {
+            super(insuranceName);
+            this.petType = petType;
+        }
+
         @Override
         void getQuote() {
             System.out.println("quote is");
@@ -57,6 +71,10 @@ public abstract class Insurance {
     }
 
     class Health extends Insurance{
+        public Health(String insuranceName) {
+            super(insuranceName);
+        }
+
         @Override
         void getQuote() {
             System.out.println("quote is");
@@ -74,25 +92,14 @@ public abstract class Insurance {
 
         public static void main(String[] args) {
 
-            Car carInsurance=new Car();
-            Pet p=new Pet();
-            Health h=new Health();
+
 
             ArrayList<Insurance>arrays=new ArrayList<>();
+            arrays.add(new Car("Geico","BMW"));
+            arrays.add(new Pet("Retro","Retriever"));
+            arrays.add(new Health("Statefirm"));
 
 
-            arrays.add(carInsurance);
-            arrays.add(p);
-            arrays.add(h);
-
-
-
-            //   Using for loop/advanced for loop/ iterator access all methods of the class.
-
-
-            for (int i=0; i<arrays.size();i++){
-                System.out.println(arrays.get(i));
-            }
 
 
             //___________________________________________________
@@ -105,10 +112,5 @@ public abstract class Insurance {
 
                 //__________________________________
 
-            Iterator <Insurance>i=arrays.iterator();
-            while(i.hasNext()){
-                System.out.println(i.next());
-
             }
         }
-    }
